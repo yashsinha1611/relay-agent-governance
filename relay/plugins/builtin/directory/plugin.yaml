@@ -1,0 +1,5 @@
+name: directory
+version: 0.1.0
+capabilities: [lookup, plan-membership]
+tools: [directory.lookup_user, directory.plan_add_member]
+allowed_operations: [directory.lookup_user, directory.plan_add_member]

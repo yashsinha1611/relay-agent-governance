@@ -1,0 +1,5 @@
+name: storage
+version: 0.1.0
+capabilities: [read, plan-upload, plan-delete]
+tools: [storage.list_objects, storage.read_object, storage.plan_upload, storage.plan_delete]
+allowed_operations: [storage.list_objects, storage.read_object, storage.plan_upload, storage.plan_delete]

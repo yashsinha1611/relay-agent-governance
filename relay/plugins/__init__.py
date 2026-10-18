@@ -1,0 +1,1 @@
+"""Plugin package. No side effects on import."""

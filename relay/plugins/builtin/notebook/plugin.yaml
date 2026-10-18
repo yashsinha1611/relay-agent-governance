@@ -1,0 +1,5 @@
+name: notebook
+version: 0.1.0
+capabilities: [summarize]
+tools: [notebook.summarize]
+allowed_operations: [notebook.summarize]
