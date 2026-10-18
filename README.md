@@ -1,16 +1,16 @@
-# Relay — Offline-First Governed LangGraph Orchestration
+# relay-agent-governance — Offline-First Governed LangGraph Orchestration
 
 A production-oriented, offline-first, governed LangGraph orchestration project.
 Defaults to deterministic **mock/offline mode**; no provider SDK or network call
 unless `LLM_PROVIDER` is explicitly set to a real provider.
 
-This is a standalone build of the `relay` project (plus its required `shared`
+This is a standalone build of the `relay-agent-governance` project (plus its required `shared`
 typed-boundary foundation). Tribunal lives in a separate repository.
 
 ## Layout
 
 ```
-relay-project/
+relay-agent-governance/
   relay/              LangGraph orchestration project
     __main__.py       CLI: demo | run | resume | eval | stats | trace
     core.py           RelayRunner facade + RelayConfig

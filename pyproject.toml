@@ -1,0 +1,20 @@
+
+[project]
+name = "relay-agent-governance"
+version = "0.1.0"
+description = "Offline-first governed LangGraph orchestration with approval gates, SQLite checkpoints, and deterministic mock mode"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0",
+    "langgraph>=0.2",
+]
+
+[project.scripts]
+relay = "relay.__main__:main"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F"]
